@@ -12,6 +12,9 @@ public class Person {
         this.age = age;
         this.sex = sex;
     }
+    public void toWork(){
+        System.out.println("Я ничего не умею");
+    }
 
     public String getName() {
         return name;

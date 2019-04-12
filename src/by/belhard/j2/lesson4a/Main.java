@@ -4,6 +4,7 @@ package by.belhard.j2.lesson4a;
 import by.belhard.j2.lesson4a.entity.Country;
 import by.belhard.j2.lesson4a.entity.Person;
 import by.belhard.j2.lesson4a.entity.Sex;
+import by.belhard.j2.lesson4a.entity.Worker;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,6 +17,10 @@ public class Main {
 
         System.out.println(person1);
         System.out.println(person2);
+
+        Worker worker1 = new Worker ("Mustafa", 45, Sex.MALE);
+        System.out.print(worker1+" ");
+        worker1.toWork();
     }
 
 }
