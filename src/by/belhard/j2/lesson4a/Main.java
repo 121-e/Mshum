@@ -17,4 +17,5 @@ public class Main {
         System.out.println(person1);
         System.out.println(person2);
     }
+
 }
