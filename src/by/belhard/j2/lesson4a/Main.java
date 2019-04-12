@@ -21,6 +21,7 @@ public class Main {
         Worker worker1 = new Worker ("Mustafa", 45, Sex.MALE);
         System.out.print(worker1+" ");
         worker1.toWork();
+
     }
 
 }
