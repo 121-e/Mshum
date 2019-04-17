@@ -4,6 +4,7 @@ public abstract class Person implements Workable{  //implements реализуе
    public int a = 10;
 
 
+
    // public abstract void doWork();
     public  void doWork(String str){
         System.out.println("Work with "+str);
