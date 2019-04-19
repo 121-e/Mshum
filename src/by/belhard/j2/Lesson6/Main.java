@@ -50,11 +50,11 @@ public class Main {
 
         map.put("zaz", new Car("zaparojets"));
 
-
-
+        System.out.println(map.remove("opel", new Car("opel corse")));
         System.out.println(audi);
         System.out.println(vaz);
         System.out.println(map.get("zaz"));
+        System.out.println("opel=" + map.get("opel"));
 
 
     }
