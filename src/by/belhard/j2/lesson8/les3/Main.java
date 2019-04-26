@@ -14,6 +14,9 @@ public class Main {
             System.out.println(inputString.toUpperCase());
             System.out.println("Enter string");
 
+
+
+
         }
 
         System.out.println("Good buy");
